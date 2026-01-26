@@ -1,0 +1,35 @@
+# CourSumm Configuration
+
+# Paths
+transcripts_dir: "./transcripts"
+output_dir: "./output"
+intermediate_dir: "./intermediate"
+
+# LLM settings
+llm_provider: "openai"  # "openai" or "anthropic"
+llm_model: "gpt-4o-mini"
+
+# Chunking
+chunk_min_words: 300
+chunk_max_words: 800
+
+# Topic categories (customize for your course)
+topics:
+  - truth
+  - knowledge
+  - mind
+  - free_will
+  - god_religion
+  - morality
+  - meaning
+
+# Public safety thresholds
+public_safety:
+  enabled: true
+  max_ngram_overlap: 0.02      # 2% max 3-gram overlap
+  max_cosine_similarity: 0.80  # 80% max similarity to source
+  max_consecutive_words: 8     # Max 8 consecutive words from source
+  regeneration_attempts: 3     # Retry failed sections up to 3 times
+
+# Output format
+output_format: "md"  # "md", "docx", or "both"
