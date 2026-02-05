@@ -224,15 +224,16 @@ Typst template with:
 
 ### Listing Strategy:
 - **Title:** "Beyond the Big Questions: A Philosophical Companion"
-- **Subtitle:** "Expanding the Ideas from The Great Courses' Big Questions of Philosophy"
+- **Series:** "The Great Courses Companion Series"
 - **Category:** Philosophy > Introduction, Philosophy > Ethics
-- **Keywords:** philosophy companion guide, big questions philosophy, Mill harm principle, Rawls justice, meaning of life philosophy
+- **Keywords:** philosophy companion guide, big questions philosophy, Mill harm principle, Rawls justice, meaning of life philosophy, great courses companion
 - **Price:** $9.99 Kindle, $14.99 paperback
 
 ### Series Potential:
-This is a template. Any Great Courses philosophy/humanities course could get the same treatment:
+This is a template. Any Great Courses course could get the same treatment under "The Great Courses Companion Series":
 - "Beyond Consciousness: A Companion to the Neuroscience of Mind"
 - "Beyond the Greeks: A Companion to Ancient Philosophy"
+- "Beyond the Numbers: A Companion to the Joy of Mathematics"
 - etc.
 
 ---
@@ -260,15 +261,18 @@ This is a template. Any Great Courses philosophy/humanities course could get the
 
 ## Session Handoff Instructions
 
+**GOAL: One-shot the entire book in a single session.** David has Opus credits resetting at 10 AM MT (5 PM UTC) Feb 5. Use them aggressively.
+
 When starting the new session to execute this:
 
 1. **Read this file first** — it's the complete plan
-2. **Pull transcripts from Google Drive** — search for "Big Questions" or "philosophy lecture" transcripts
-3. **Phase 1:** Feed ALL transcripts to Opus, get topic map + chapter structure
-4. **Phase 2:** Present chapter outline to David for approval
-5. **Phase 3:** Write chapters one at a time, each in its own Markdown file under `output/book/`
-6. **Phase 4-6:** Polish, format, generate cover
-7. **Save all intermediate work** — if session dies, next session can pick up
+2. **Pull ALL 36 transcripts from Google Drive** — search for "Big Questions" or "philosophy lecture" transcripts
+3. **Phase 1:** Feed ALL transcripts to Opus, get topic map + chapter structure (fast — 30 min)
+4. **Phase 2:** Present chapter outline to David for quick approval, then GO
+5. **Phase 3:** Write ALL chapters back to back. Don't stop between chapters. Each in its own Markdown file under `output/book/`. This is the bulk of the work — 4-6 hours of Opus generation.
+6. **Phase 4-6:** Polish, format (EPUB + PDF), generate cover
+7. **Save each chapter as you go** — if session dies, next session picks up from last saved chapter
+8. **Do NOT wait for feedback between chapters** — write them all, David reviews the complete manuscript after
 
 ### File Structure:
 ```
@@ -295,12 +299,14 @@ projects/coursumm-pipeline/
 
 ---
 
-## Key Decisions for David
+## Key Decisions (Confirmed)
 
 1. ✅ **Thematic structure** (not lecture-by-lecture) — confirmed
 2. ✅ **Lecture callbacks + expansion** — confirmed ("true companion")
-3. ⬜ **Chapter structure** — review after Phase 1 topic analysis
-4. ⬜ **Voice/style preference** — any adjustments to the style guide above?
-5. ⬜ **Title** — "Beyond the Big Questions" or something else?
-6. ⬜ **Author name** — pseudonym or real name?
-7. ⬜ **EPUB + PDF** — confirm killing Word output
+3. ✅ **Series name:** "The Great Courses Companion Series"
+4. ✅ **Book title:** "Beyond the Big Questions: A Philosophical Companion"
+5. ✅ **Author:** TBD pseudonym (Seo-Yun Kim used for FightingBooks — may want different for this series. If not specified, leave as placeholder.)
+6. ✅ **Format:** EPUB + PDF. No more Word.
+7. ✅ **Approach:** One-shot the entire book in a single session. Maximize Opus credit usage before reset (tomorrow 10 AM MT / 5 PM UTC).
+8. ⬜ **Chapter structure** — finalize after Phase 1 topic analysis
+9. ⬜ **Voice/style preference** — any adjustments to style guide above?
