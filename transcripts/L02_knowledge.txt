@@ -1,0 +1,16 @@
+Last time we discussed truth. Today: knowledge.
+
+What is knowledge? The traditional definition is "justified true belief." 
+You know something if: (1) it's true, (2) you believe it, (3) you have good reasons.
+
+But Gettier (1963) showed this isn't enough. Here's his example: 
+Smith believes Jones owns a Ford (good evidence - he's seen Jones driving it). 
+Smith also believes "Jones owns a Ford OR Brown is in Barcelona" (disjunction is true if either part is).
+But Jones doesn't own a Ford - he was borrowing it. Brown happens to be in Barcelona.
+So Smith has a justified true belief that's not knowledge!
+
+This sparked decades of work trying to fix the JTB definition. We'll explore some 
+attempts next lecture: causal theories, reliabilism, and virtue epistemology.
+
+One key insight: knowledge requires some kind of proper connection between belief and truth.
+Not just luck. You can't just happen to be right - you need to be right for the right reasons.

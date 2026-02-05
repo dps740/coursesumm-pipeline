@@ -1,0 +1,15 @@
+Welcome to Philosophy 101. Today we're discussing truth.
+
+What is truth? The correspondence theory says truth is when a statement matches reality. 
+If I say "the sky is blue" and the sky really is blue, that statement is true.
+
+But there are problems with this view. First, what does "matches" mean? How do we compare 
+a statement to reality? Second, what about statements like "2+2=4"? What reality does that match?
+
+The coherence theory offers an alternative. Truth is coherence with other beliefs. 
+A statement is true if it fits consistently with everything else we believe.
+
+But this has issues too. A delusional person might have a perfectly coherent system 
+of false beliefs.
+
+Next lecture, we'll explore pragmatist theories of truth.

@@ -1,0 +1,102 @@
+╔════════════════════════════════════════════════════════════════╗
+║         CourseSumm v2 - Phase 1 MVP - Quick Start             ║
+╚════════════════════════════════════════════════════════════════╝
+
+✅ PHASE 1 COMPLETE - Ready for Testing!
+
+┌────────────────────────────────────────────────────────────────┐
+│ What's Built:                                                  │
+│                                                                │
+│ Video/Audio → Audio Extract → Transcribe → Generate → Word    │
+│                                                                │
+│ • Handles MP4 video and MP3 audio                             │
+│ • Local Whisper transcription (no API costs)                  │
+│ • LLM generation (GPT-4, GPT-3.5, Claude)                     │
+│ • Professional Word documents                                  │
+│ • Batch processing for entire courses                          │
+└────────────────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────────────────┐
+│ Quick Test (3 commands):                                       │
+└────────────────────────────────────────────────────────────────┘
+
+1. cd ~/clawd/projects/coursumm-pipeline
+
+2. export OPENAI_API_KEY="sk-..."
+
+3. ./quickstart.sh
+
+This will:
+  • Create virtual environment
+  • Install dependencies
+  • Process 2 test transcripts
+  • Generate Word documents
+  • Output to ./test_output/
+
+┌────────────────────────────────────────────────────────────────┐
+│ Full Pipeline Usage:                                           │
+└────────────────────────────────────────────────────────────────┘
+
+# Process audio/video files
+python run_phase1.py ./audio ./output --title "Course Title"
+
+# Process existing transcripts
+python run_phase1.py ./transcripts ./output \
+    --title "Philosophy" \
+    --skip-audio \
+    --skip-transcription
+
+# Use GPT-3.5 (faster, cheaper)
+python run_phase1.py ./transcripts ./output \
+    --title "Philosophy" \
+    --model gpt-3.5-turbo \
+    --skip-audio \
+    --skip-transcription
+
+┌────────────────────────────────────────────────────────────────┐
+│ Test Data:                                                     │
+└────────────────────────────────────────────────────────────────┘
+
+Available now:
+  • 2 transcripts in ./transcripts/
+
+On Google Drive (ID: 1LsAmsNR4HddqT339ci_7aNumAk8Hcbo5):
+  • 10 sample MP3 files
+  • 36 complete transcripts
+
+┌────────────────────────────────────────────────────────────────┐
+│ Documentation:                                                 │
+└────────────────────────────────────────────────────────────────┘
+
+• PHASE1_README.md      - Complete usage guide
+• SETUP.md              - Installation & troubleshooting
+• PHASE1_COMPLETE.md    - Technical completion report
+• SUBAGENT_REPORT.md    - Executive summary for main agent
+
+┌────────────────────────────────────────────────────────────────┐
+│ Performance (36-lecture course):                               │
+└────────────────────────────────────────────────────────────────┘
+
+CPU Mode:
+  Transcription:  ~6 hours
+  Generation:     ~30 min (GPT-4) or ~15 min (GPT-3.5)
+  Total:          ~6-7 hours
+
+GPU Mode:
+  Transcription:  ~1 hour
+  Generation:     ~30 min (GPT-4) or ~15 min (GPT-3.5)
+  Total:          ~1.5 hours
+
+Cost: ~$1-2 (GPT-3.5) or ~$5-10 (GPT-4)
+
+┌────────────────────────────────────────────────────────────────┐
+│ Next Phases:                                                   │
+└────────────────────────────────────────────────────────────────┘
+
+Phase 2: Professional formatting (covers, TOC, page numbers)
+Phase 3: Public companions (V1/V2/V3 with topic reorganization)
+Phase 4: Gradio web UI with batch queue
+
+╔════════════════════════════════════════════════════════════════╗
+║  Ready to test! Run: ./quickstart.sh                          ║
+╚════════════════════════════════════════════════════════════════╝
