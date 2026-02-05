@@ -305,7 +305,7 @@ projects/coursumm-pipeline/
 2. ✅ **Lecture callbacks + expansion** — confirmed ("true companion")
 3. ✅ **Series name:** "The Great Courses Companion Series"
 4. ✅ **Book title:** "Beyond the Big Questions: A Philosophical Companion"
-5. ✅ **Author:** TBD pseudonym (Seo-Yun Kim used for FightingBooks — may want different for this series. If not specified, leave as placeholder.)
+5. ✅ **Author:** Seo-Yun Kim (same pseudonym across all projects)
 6. ✅ **Format:** EPUB + PDF. No more Word.
 7. ✅ **Approach:** One-shot the entire book in a single session. Maximize Opus credit usage before reset (tomorrow 10 AM MT / 5 PM UTC).
 8. ⬜ **Chapter structure** — finalize after Phase 1 topic analysis
